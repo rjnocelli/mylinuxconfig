@@ -1,0 +1,11 @@
+Ctrl + Alt + RightArrow ---- move to right workspace
+Ctrl + Alt + LeftArrow ---- move to left workspace
+
+AltGr + Shift + Number (1,2,3,4) ---- move to workspace number (1,2,3,4)
+
+Shift + Super + UpArrow ---- Move to App to right/up monitor
+Shift + Super + DownArrow ---- Move to App to left/down monitor
+
+Ctrl + Space ---- Search Bar
+
+Super + T ---- Tilding Options
