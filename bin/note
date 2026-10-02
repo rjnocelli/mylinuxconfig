@@ -1,0 +1,13 @@
+#!/bin/bash
+
+NOTES="$HOME/Notes"
+FILE="$NOTES/$(date +%Y-%m-%d).md"
+
+mkdir -p "$NOTES"
+
+if [ ! -f "$FILE" ]; then
+    printf "# %s\n\n" "$(date +%Y-%m-%d)" > "$FILE"
+fi
+
+nvim "$FILE"
+

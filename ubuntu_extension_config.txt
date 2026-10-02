@@ -76,7 +76,7 @@ version=34
 [switcher]
 font-size=uint32 20
 icon-size=uint32 27
-launcher-stats='{"com.mattjakeman.ExtensionManager.desktop":4,"code.desktop":1,"org.gnome.Settings.desktop":2,"gnome-keyboard-panel.desktop":4}'
+launcher-stats='{"com.mattjakeman.ExtensionManager.desktop":5,"code.desktop":1,"org.gnome.Settings.desktop":2,"gnome-keyboard-panel.desktop":7,"org.gnome.Terminal.desktop":4,"com.onepassword.OnePassword.desktop":1}'
 max-width-percentage=uint32 50
 show-switcher=['<Control>space']
 workspace-indicator=true

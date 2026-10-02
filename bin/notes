@@ -1,0 +1,18 @@
+#!/bin/bash
+# Fuzzy search through all notes in ~/Notes and open the match at that line.
+
+NOTES="$HOME/Notes"
+EDITOR="${EDITOR:-nvim}"
+
+selection=$(rg --line-number --no-heading --smart-case '.' "$NOTES" \
+  | fzf --ansi --delimiter : \
+        --preview 'cat -n {1}' \
+        --preview-window 'right:50%:wrap')
+
+[ -z "$selection" ] && exit 0
+
+file="${selection%%:*}"
+rest="${selection#*:}"
+line="${rest%%:*}"
+
+"$EDITOR" "+$line" "$file"
