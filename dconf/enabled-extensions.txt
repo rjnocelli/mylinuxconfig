@@ -1,0 +1,1 @@
+['Vitals@CoreCoding.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'space-bar@luchrioh', 'switcher@landau.fi', 'just-perfection-desktop@just-perfection', 'ding@rastersoft.com', 'tiling-assistant@ubuntu.com']

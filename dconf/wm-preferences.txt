@@ -1,0 +1,4 @@
+[/]
+button-layout=':close'
+num-workspaces=4
+resize-with-right-button=false
