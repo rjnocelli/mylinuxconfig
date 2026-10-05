@@ -70,6 +70,9 @@ inactive-workspace-padding-h=16
 [space-bar/behavior]
 scroll-wheel='panel'
 
+[space-bar/shortcuts]
+enable-move-to-workspace-shortcuts=true
+
 [space-bar/state]
 version=34
 

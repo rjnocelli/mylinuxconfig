@@ -73,6 +73,16 @@ These are **not** saved here and have to be set up by hand:
   (for example, Firefox installed as a snap is `firefox_firefox.desktop`).
 - Dock favorites, theme, wallpaper, fonts, and other GNOME settings outside the paths above.
 
+## Known gotchas
+
+- **Shift+Super+Number (move window to workspace) resetting to default.** Space Bar resets
+  `move-to-workspace-1..10` to GNOME's defaults whenever its own *"Move to workspace"* shortcut
+  option is off and it gets a change notification. Those notifications can fire without a real
+  change, e.g. after a bulk dconf write or a JumpCloud policy refresh. Fix: keep that option
+  **on** (`[space-bar/shortcuts] enable-move-to-workspace-shortcuts=true`, already in
+  `dconf/extensions.txt`) so Space Bar sets `<Super><Shift>N` itself. Change the binding in
+  Space Bar's settings, not in GNOME Settings.
+
 ## Updating this repo after changing settings
 
 ```bash
